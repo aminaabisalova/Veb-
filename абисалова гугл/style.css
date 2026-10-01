@@ -1,0 +1,71 @@
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+}
+.menu{
+    padding-left: 500px ;
+    text-decoration: none;
+    margin-right: 30px;
+
+}
+.menu a{
+     text-decoration: none;
+    margin-right: 10px;
+    color: gray;
+}
+.name{
+    display: flex;
+font-size: 100px;
+ padding-left: 200px ;
+}
+
+.blue{
+    color: blue;
+}
+.red{
+    color: rgb(252, 22, 22);
+}
+.yellow{
+    color: rgb(255, 196, 0);
+}
+.green{
+    color: rgb(8, 112, 8);
+}
+
+.search{
+  width: 100%;
+  max-width: 200px;
+  background-color: white;
+  border-radius: 50px;
+  padding: 0px 5px 0px 4px;
+  box-shadow: 0 2px 5px white;
+  margin-left: 10px;
+  border-color: white;
+  outline: none;
+
+}
+
+.cont{
+display: flex;
+  border-radius: 70px;
+    border:1px solid rgb(168, 166, 166); 
+    box-shadow: 0 10px 24px rgb(207, 207, 207);
+  margin-left: 150px;
+  max-width: 400px;
+  padding: 10px 10px 9px 10px;
+}
+.cont textarea{
+     
+}
+
+.cont a{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.ai{
+    background-color: rgb(224, 224, 224);
+    max-width: 70px;
+    padding-left: 10px;
+}
