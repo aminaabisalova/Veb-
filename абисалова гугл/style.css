@@ -1,14 +1,18 @@
-.body{
+*{
+        box-sizing: border-box;
+    }
+    .body{
     font-family: Arial, Helvetica, sans-serif;
-}
-.container{
-    display: flex;
+        width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
 }
 .menu{
-    padding-left: 470px ;
+    padding-left: 500px ;
     text-decoration: none;
     margin-right: 30px;
-
+    display: flex;
 }
 .menu a{
      text-decoration: none;
@@ -17,8 +21,9 @@
 }
 .name{
     display: flex;
-font-size: 100px;
- padding-left: 200px ;
+    font-size: 100px;
+    padding-left: 200px ;
+    max-width: 600px;
 }
 
 .blue{
@@ -36,10 +41,10 @@ font-size: 100px;
 
 .search{
   width: 100%;
-  max-width: 200px;
+  max-width: 600px;
   background-color: white;
   border-radius: 50px;
-  padding: 0px 5px 0px 4px;
+  padding: 0px 7px 0px 6px;
   box-shadow: 0 2px 5px white;
   margin-left: 10px;
   border-color: white;
@@ -47,17 +52,17 @@ font-size: 100px;
 
 }
 
-.cont{
+.container{
 display: flex;
   border-radius: 70px;
-    border:1px solid rgb(168, 166, 166); 
+    border:1px solid rgb(209, 209, 209); 
     box-shadow: 0 10px 24px rgb(207, 207, 207);
-  margin-left: 150px;
-  max-width: 400px;
+  margin-left: 125px;
+  max-width: 500px;
   padding: 10px 10px 9px 10px;
   margin-bottom: 30px;
 }
-.cont a{
+.container a{
     padding-right: 5px;
     padding-left: 5px;
 }
@@ -79,4 +84,21 @@ display: flex;
 
 .text{
      margin-left: 325px;
+}
+
+.footer{
+    background-color: rgb(205, 228, 255);
+    display: flex;
+    padding-left: 470px ;
+     border-radius: 70px;
+    border:1px solid rgb(209, 209, 209); 
+    box-shadow: 0 10px 24px rgb(207, 207, 207);
+     margin-left: 500px;
+  max-width: 190px;
+  padding: 10px 10px 9px 10px;
+  margin-top: 300px;
+}
+.footer a{
+    color: black;
+    text-decoration: none;
 }
