@@ -4,7 +4,8 @@
 body{
     margin: 0;
     width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
     line-height: 1.6;
     display: grid;
@@ -20,13 +21,12 @@ body{
     
 
 header{
-    background-color: rgb(126, 84, 50);
+    background-color: rgba(222, 184, 135, 0.76);
     display: flex;
     width: 100%;
 }
-.log{
-    margin: 30px;
-    margin-left: 50px;
+.log-as{
+    margin: 10px;
 }
 .address{
     text-align: center;
@@ -36,7 +36,7 @@ header{
     margin: 60px;
     margin-left: auto;
     display: flex;
-        flex-wrap: nowrap;
+    flex-wrap: nowrap;
 }
 .search a{
     padding: 10px;
@@ -88,7 +88,7 @@ main{
         text-align: center;
         padding: 2px 4px 2px 2px;
         font-size: 25px;
-        background-color: rgb(178, 221, 178);
+        background-color: rgba(58, 216, 73, 0.493);
         border-radius: 40px;
     }
     .cont{
@@ -99,19 +99,19 @@ main{
     .section-card{
     padding: 32px;
     margin-bottom: 24px;
-    
     }
 
     footer{
-        background-color: rgb(231, 231, 231);
+        background-color: rgba(222, 184, 135, 0.76);
         margin-top: 150px;
         padding: 10px 1px 30px 50px;
     }
     .logo-f{
-        margin: auto;
+        margin: 50px 10px 0px 10px;
     }
     .pp{
         text-align: right;
         padding-right: 20px;
+        color: white;
     }
     
