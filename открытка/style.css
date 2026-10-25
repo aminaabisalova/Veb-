@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(190, 190, 190);
+}
+.flip-card {
+    width: 300px;
+    height: 400px;
+    perspective: 1000px;
+    margin: auto;
+    margin-top: 13%;
+  }
+
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  .card-front,
+  .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .card-front {
+    background: linear-gradient(135deg, #8b0202, #ffffff);
+    color: rgb(32, 32, 32);
+    animation: glow 3s ease-in-out infinite;
+  }
+  .card-front img{
+    border-radius: 5%;
+  }
+
+  .card-back {
+    background: linear-gradient(135deg, #fe4f4f, #1c2525);
+    color: white;
+    transform: rotateY(180deg);
+    /* animation: glow 2s ease-in-out infinite; */
+  }
+
+@keyframes glow {
+    0%, 100% { box-shadow: 0 0 0 rgb(0, 0, 0, 0); }
+    50%      { box-shadow: 0 0 20px rgb(158, 14, 14); }
+}
+    
